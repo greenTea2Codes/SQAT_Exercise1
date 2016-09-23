@@ -6,11 +6,13 @@ import org.junit.Test;
 public class TestBowling {
 
 	Frame test;
-	int firstThrow = 0;
-	int secondThrow = 0;
+	int firstThrow;
+	int secondThrow;
 	@Before
 	public void setUp(){
-		test = new Frame(firstThrow, secondThrow);
+		firstThrow = 0;
+		secondThrow = 0;
+		test = new Frame(firstThrow, secondThrow);	
 	}
 	@Test
 	public void testFrame_score() {
@@ -30,6 +32,11 @@ public class TestBowling {
 	public void testFrame_isNotStrike(){
 		test.updateScore_FirstThrow(5);
 		assertFalse(test.isStrike());
+	}
+	@Test 
+	public void testFrame_isSpare(){
+		test.updateScore_SecondThrow(10);
+		assertTrue(test.isSpare());
 	}
 
 }
