@@ -99,3 +99,4 @@ RefactoringAction 1474633708925 TestBowling.java RENAME testBowlingGame_getINumb
 RefactoringAction 1474633710932 TestBowling.java RENAME testBowlingGame_getInniNumberOfFrames()=>void testBowlingGame_getInNumberOfFrames() METHOD
 RefactoringAction 1474633714442 TestBowling.java RENAME testBowlingGame_getInNumberOfFrames()=>void testBowlingGame_getIniNumberOfFrames() METHOD
 EditAction 1474633735189 TestBowling.java 1444 8 19 6
+EditAction 1474633735252 BowlingGame.java 781 5 5 0

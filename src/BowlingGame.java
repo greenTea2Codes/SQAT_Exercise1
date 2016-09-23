@@ -15,6 +15,12 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		frames.add(frame);
 	}
+	//returns number of frames
+	public int getNumberOfFrames(){
+		int numberOfFrames = 0;
+		numberOfFrames = frames.size();
+		return numberOfFrames;
+	}
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
