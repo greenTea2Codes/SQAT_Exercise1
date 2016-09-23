@@ -53,4 +53,5 @@ public class Frame {
 		}
 		return isSpare;
 	}
+	
 }
