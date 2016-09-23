@@ -35,11 +35,19 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int gameScore = 0;
+		
+		if(frames.size() == 0){
+			gameScore = 0;
+		}
+		else{ 
 		for(int i = 0; i < frames.size(); i++){
-			int firstThrow = frames.get(i).getFirstThrow();
-			int secondThrow = frames.get(i).getSecondThrow();
-			gameScore = gameScore + firstThrow + secondThrow;
-		}	
+				
+				int firstThrow = frames.get(i).getFirstThrow();
+				int secondThrow = frames.get(i).getSecondThrow();
+				gameScore = gameScore + firstThrow + secondThrow;
+				
+			}
+		}
 		return gameScore;
 	}
 }
