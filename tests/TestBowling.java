@@ -5,43 +5,50 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	Frame test;
+	Frame testFrame;
 	int firstThrow;
 	int secondThrow;
+	BowlingGame testBowlingGame; 
 	@Before
 	public void setUp(){
 		firstThrow = 0;
 		secondThrow = 0;
-		test = new Frame(firstThrow, secondThrow);	
+		testFrame = new Frame(firstThrow, secondThrow);	
+		testBowlingGame = new BowlingGame();
 	}
 	@Test
 	public void testFrame_score() {
 		//int firstThrow = 4;
 		//int secondThrow = 5;
 		//Frame test = new Frame( firstThrow, secondThrow );
-		test.updateScore_FirstThrow(5);
-		test.updateScore_SecondThrow(4);
-		assertEquals(9, test.score());
+		testFrame.updateScore_FirstThrow(5);
+		testFrame.updateScore_SecondThrow(4);
+		assertEquals(9, testFrame.score());
 	}
 	@Test
 	public void testFrame_isStrike(){
-		test.updateScore_FirstThrow(10);
-		assertTrue(test.isStrike());
+		testFrame.updateScore_FirstThrow(10);
+		assertTrue(testFrame.isStrike());
 	}
 	@Test
 	public void testFrame_isNotStrike(){
-		test.updateScore_FirstThrow(5);
-		assertFalse(test.isStrike());
+		testFrame.updateScore_FirstThrow(5);
+		assertFalse(testFrame.isStrike());
 	}
 	@Test 
 	public void testFrame_isSpare(){
-		test.updateScore_SecondThrow(10);
-		assertTrue(test.isSpare());
+		testFrame.updateScore_SecondThrow(10);
+		assertTrue(testFrame.isSpare());
 	}
 	@Test 
 	public void testFrame_isNotSpare(){
-		test.updateScore_SecondThrow(9);
-		assertFalse(test.isSpare());
+		testFrame.updateScore_SecondThrow(9);
+		assertFalse(testFrame.isSpare());
+	}
+	@Test
+	public void testBowlingGame_addFrame(){
+		testBowlingGame.addFrame(testFrame);
+		Fail("not implemented");
 	}
 
 
