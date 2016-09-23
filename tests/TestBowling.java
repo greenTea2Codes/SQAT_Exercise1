@@ -67,6 +67,16 @@ public class TestBowling {
 		int gameScore = testBowlingGame.score();
 		assertEquals(90, gameScore);
 	}
+	@Test
+	public void testBowlingGame_getBonusFrame(){
+		assertNull(testBowlingGame.getBonusFrame());
+	}
+	@Test
+	public void testBowlingGame_setBonus_5_4(){
+		testBowlingGame.setBonus(5, 4);
+		//assertEquals(9, testBowlingGame..get(0).score());
+		fail("not implemented");
+	}
 
 
 }

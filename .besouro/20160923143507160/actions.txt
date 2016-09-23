@@ -121,3 +121,24 @@ UnitTestCaseAction 1474634608272 TestBowling.java OK
 UnitTestSessionAction 1474634608272 TestBowling.java OK
 RefactoringAction 1474634622983 TestBowling.java RENAME testBowlingGame_score_noBonus()=>void testBowlingGame_score_90_noBonus() METHOD
 EditAction 1474634626564 TestBowling.java 1834 9 25 8
+UnitTestCaseAction 1474634626844 TestBowling.java OK
+UnitTestSessionAction 1474634626845 TestBowling.testBowlingGame_score_90_noBonus OK
+RefactoringAction 1474635838869 TestBowling.java ADD void testBow FIELD
+RefactoringAction 1474635842787 TestBowling.java RENAME testBow=>void testBowlingGame_ FIELD
+RefactoringAction 1474635845128 TestBowling.java RENAME testBowlingGame_=>void testBowlingGame_setBon FIELD
+RefactoringAction 1474635845970 TestBowling.java RENAME testBowlingGame_setBon=>void testBowlingGame_setBonus FIELD
+RefactoringAction 1474635850704 TestBowling.java RENAME testBowlingGame_setBonus=>void testBowlingGame_setBonus_ FIELD
+RefactoringAction 1474635854876 TestBowling.java RENAME testBowlingGame_setBonus_=>void testBowlingGame_setBonus_5 FIELD
+RefactoringAction 1474635855715 TestBowling.java RENAME testBowlingGame_setBonus_5=>void testBowlingGame_setBonus_5_ FIELD
+RefactoringAction 1474635856389 TestBowling.java RENAME testBowlingGame_setBonus_5_=>void testBowlingGame_setBonus_5_5 FIELD
+RefactoringAction 1474635857229 TestBowling.java RENAME testBowlingGame_setBonus_5_5=>void testBowlingGame_setBonus_5_4 FIELD
+RefactoringAction 1474635859243 TestBowling.java RENAME testBowlingGame_setBonus_5_4=>void testBowlingGame_setBonus_5_4() METHOD
+RefactoringAction 1474636161688 BowlingGame.java ADD Frame b FIELD
+RefactoringAction 1474636164103 BowlingGame.java RENAME b=>Frame getB FIELD
+RefactoringAction 1474636166257 BowlingGame.java RENAME getB=>Frame getBonusFrame FIELD
+RefactoringAction 1474636167860 BowlingGame.java RENAME getBonusFrame=>Frame getBonusFrame() METHOD
+RefactoringAction 1474636167863 BowlingGame.java RENAME getBonusFrame=>Frame getBonusFrame() METHOD
+RefactoringAction 1474636251556 TestBowling.java ADD void testBowlingGame/2 FIELD
+RefactoringAction 1474636253173 TestBowling.java REMOVE testBowlingGame/2 FIELD
+RefactoringAction 1474636258184 TestBowling.java ADD void testBowlingGame_getBonusFrame() METHOD
+EditAction 1474636417092 TestBowling.java 2117 11 28 9
