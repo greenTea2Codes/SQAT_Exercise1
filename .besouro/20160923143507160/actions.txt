@@ -103,3 +103,16 @@ EditAction 1474633735252 BowlingGame.java 781 5 5 0
 UnitTestCaseAction 1474633735590 TestBowling.java FAIL
 UnitTestSessionAction 1474633735591 TestBowling.java FAIL
 EditAction 1474633808957 TestBowling.java 1537 8 20 7
+UnitTestCaseAction 1474633809309 TestBowling.java OK
+UnitTestSessionAction 1474633809310 TestBowling.java OK
+RefactoringAction 1474634331823 TestBowling.java ADD void test FIELD
+RefactoringAction 1474634332776 TestBowling.java RENAME test=>void testBow FIELD
+RefactoringAction 1474634333835 TestBowling.java RENAME testBow=>void testBowling FIELD
+RefactoringAction 1474634335489 TestBowling.java RENAME testBowling=>void testBowlingGame_ FIELD
+RefactoringAction 1474634337532 TestBowling.java RENAME testBowlingGame_=>void testBowlingGame_score FIELD
+RefactoringAction 1474634338643 TestBowling.java RENAME testBowlingGame_score=>void testBowlingGame_score() METHOD
+RefactoringAction 1474634375035 TestBowling.java RENAME testBowlingGame_score()=>void testBowlingGame_score_no() METHOD
+RefactoringAction 1474634377562 TestBowling.java RENAME testBowlingGame_score_no()=>void testBowlingGame_score_noStrick_() METHOD
+RefactoringAction 1474634379637 TestBowling.java RENAME testBowlingGame_score_noStrick_()=>void testBowlingGame_score_noBo() METHOD
+RefactoringAction 1474634380618 TestBowling.java RENAME testBowlingGame_score_noBo()=>void testBowlingGame_score_noBonus() METHOD
+EditAction 1474634607883 TestBowling.java 1831 9 25 8

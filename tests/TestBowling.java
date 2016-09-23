@@ -57,6 +57,16 @@ public class TestBowling {
 		assertEquals(1, numOfFrames);
 		//fail("not implemented");
 	}
+	@Test
+	public void testBowlingGame_score_noBonus(){
+		testFrame.updateScore_FirstThrow(5);
+		testFrame.updateScore_SecondThrow(4);
+		for(int i = 0; i < 10; i++){
+			testBowlingGame.addFrame(testFrame);
+		}
+		int gameScore = testBowlingGame.score();
+		assertEquals(90, gameScore);
+	}
 
 
 }
