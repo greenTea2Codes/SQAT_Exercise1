@@ -12,3 +12,16 @@ RefactoringAction 1474631565699 TestBowling.java RENAME testFrame_socre()=>void 
 EditAction 1474631707420 TestBowling.java 279 1 4 1
 EditAction 1474631707587 Frame.java 675 6 7 0
 EditAction 1474631707669 BowlingGame.java 627 4 1 0
+UnitTestCaseAction 1474631708755 TestBowling.java OK
+UnitTestSessionAction 1474631708759 TestBowling.java OK
+RefactoringAction 1474631933718 TestBowling.java ADD void test FIELD
+RefactoringAction 1474631935733 TestBowling.java RENAME test=>void testFrame_ FIELD
+RefactoringAction 1474631939248 TestBowling.java RENAME testFrame_=>void testFrame_is FIELD
+RefactoringAction 1474631943764 TestBowling.java RENAME testFrame_is=>void testFrame_isStrike FIELD
+RefactoringAction 1474631950780 TestBowling.java RENAME testFrame_isStrike=>void testFrame_isStrike() METHOD
+RefactoringAction 1474631992393 TestBowling.java ADD Frame test FIELD
+RefactoringAction 1474632012988 TestBowling.java ADD void setUp() METHOD
+RefactoringAction 1474632050651 TestBowling.java ADD int firstThrow FIELD
+RefactoringAction 1474632050652 TestBowling.java ADD int secondThrow FIELD
+RefactoringAction 1474632068040 TestBowling.java ADD import org.junit.Before IMPORT
+EditAction 1474632092024 TestBowling.java 509 3 2 1
