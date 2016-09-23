@@ -23,7 +23,8 @@ public class TestBowling {
 	}
 	@Test
 	public void testFrame_isStrike(){
-		
+		test.updateScore_FirstThrow(10);
+		assertTrue(test.isStrike());
 	}
 
 }
