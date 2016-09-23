@@ -74,8 +74,9 @@ public class TestBowling {
 	@Test
 	public void testBowlingGame_setBonus_5_4(){
 		testBowlingGame.setBonus(5, 4);
-		//assertEquals(9, testBowlingGame..get(0).score());
-		fail("not implemented");
+		Frame bonus = testBowlingGame.getBonusFrame();
+		assertEquals(9, bonus.score());
+		//fail("not implemented");
 	}
 
 
