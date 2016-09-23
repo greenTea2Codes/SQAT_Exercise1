@@ -83,3 +83,4 @@ RefactoringAction 1474633212153 TestBowling.java ADD BowlingGame testBowlingGame
 RefactoringAction 1474633215181 TestBowling.java RENAME test=>Frame testFrame FIELD
 EditAction 1474633403506 TestBowling.java 1287 7 17 5
 EditAction 1474633403566 Frame.java 1101 8 14 0
+EditAction 1474633403625 BowlingGame.java 626 4 2 0
