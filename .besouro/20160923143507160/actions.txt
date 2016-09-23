@@ -1,0 +1,12 @@
+FileOpenedAction 1474630507216 BowlingGame.java 623 4 1 0
+FileOpenedAction 1474630622137 Frame.java 671 6 7 0
+FileOpenedAction 1474631515582 TestBowling.java 165 1 1 0
+RefactoringAction 1474631553104 TestBowling.java RENAME test()=>void test_Fra() METHOD
+RefactoringAction 1474631554122 TestBowling.java RENAME test_Fra()=>void test_Frame() METHOD
+RefactoringAction 1474631555134 TestBowling.java RENAME test_Frame()=>void test_Frame_() METHOD
+RefactoringAction 1474631556149 TestBowling.java RENAME test_Frame_()=>void test_Frame() METHOD
+RefactoringAction 1474631557660 TestBowling.java RENAME test_Frame()=>void testFrame() METHOD
+RefactoringAction 1474631559673 TestBowling.java RENAME testFrame()=>void testFrame_() METHOD
+RefactoringAction 1474631563186 TestBowling.java RENAME testFrame_()=>void testFrame_socre() METHOD
+RefactoringAction 1474631565699 TestBowling.java RENAME testFrame_socre()=>void testFrame_score() METHOD
+EditAction 1474631707420 TestBowling.java 279 1 4 1
