@@ -26,5 +26,10 @@ public class TestBowling {
 		test.updateScore_FirstThrow(10);
 		assertTrue(test.isStrike());
 	}
+	@Test
+	public void testFrame_isNotStrike(){
+		test.updateScore_FirstThrow(5);
+		assertFalse(test.isStrike());
+	}
 
 }

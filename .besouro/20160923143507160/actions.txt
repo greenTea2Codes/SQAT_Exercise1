@@ -53,3 +53,8 @@ EditAction 1474632378913 Frame.java 954 8 11 0
 UnitTestCaseAction 1474632379195 TestBowling.java OK
 UnitTestSessionAction 1474632379196 TestBowling.java OK
 EditAction 1474632443138 TestBowling.java 640 3 6 2
+UnitTestCaseAction 1474632443403 TestBowling.java OK
+UnitTestSessionAction 1474632443403 TestBowling.java OK
+RefactoringAction 1474632486737 TestBowling.java ADD void testFrame_isStrike()/2 METHOD
+RefactoringAction 1474632492252 TestBowling.java RENAME testFrame_isStrike()/2=>void testFrame_isNotStrike() METHOD
+EditAction 1474632506248 TestBowling.java 759 4 8 3
