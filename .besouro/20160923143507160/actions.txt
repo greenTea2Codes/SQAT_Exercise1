@@ -142,3 +142,4 @@ RefactoringAction 1474636251556 TestBowling.java ADD void testBowlingGame/2 FIEL
 RefactoringAction 1474636253173 TestBowling.java REMOVE testBowlingGame/2 FIELD
 RefactoringAction 1474636258184 TestBowling.java ADD void testBowlingGame_getBonusFrame() METHOD
 EditAction 1474636417092 TestBowling.java 2117 11 28 9
+EditAction 1474636417187 BowlingGame.java 1071 6 9 0
