@@ -25,3 +25,4 @@ RefactoringAction 1474632050651 TestBowling.java ADD int firstThrow FIELD
 RefactoringAction 1474632050652 TestBowling.java ADD int secondThrow FIELD
 RefactoringAction 1474632068040 TestBowling.java ADD import org.junit.Before IMPORT
 EditAction 1474632092024 TestBowling.java 509 3 2 1
+EditAction 1474632092089 Frame.java 771 6 9 0
