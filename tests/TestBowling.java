@@ -53,7 +53,9 @@ public class TestBowling {
 	@Test
 	public void testBowlingGame_addFrame(){
 		testBowlingGame.addFrame(testFrame);
-		fail("not implemented");
+		int numOfFrames = testBowlingGame.getNumberOfFrames();
+		assertEquals(1, numOfFrames);
+		//fail("not implemented");
 	}
 
 
