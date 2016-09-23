@@ -42,7 +42,15 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		boolean isSpare = false;
+		int frameScore = score();
+		if(firstThrow < 10 && frameScore == 10){
+			isSpare = true;
+		}
+		else
+		{
+			isSpare = false;
+		}
+		return isSpare;
 	}
 }
