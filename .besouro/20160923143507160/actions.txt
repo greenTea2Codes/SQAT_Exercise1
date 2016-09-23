@@ -26,3 +26,26 @@ RefactoringAction 1474632050652 TestBowling.java ADD int secondThrow FIELD
 RefactoringAction 1474632068040 TestBowling.java ADD import org.junit.Before IMPORT
 EditAction 1474632092024 TestBowling.java 509 3 2 1
 EditAction 1474632092089 Frame.java 771 6 9 0
+UnitTestCaseAction 1474632092394 TestBowling.java FAIL
+UnitTestSessionAction 1474632092394 TestBowling.java FAIL
+RefactoringAction 1474632187461 Frame.java ADD void set FIELD
+RefactoringAction 1474632192474 Frame.java RENAME set=>void setScore FIELD
+RefactoringAction 1474632203519 Frame.java RENAME setScore=>void update FIELD
+RefactoringAction 1474632205033 Frame.java RENAME update=>void updateScore FIELD
+RefactoringAction 1474632206048 Frame.java RENAME updateScore=>void updateScoreFor FIELD
+RefactoringAction 1474632209560 Frame.java RENAME updateScoreFor=>void updateScore_ FIELD
+RefactoringAction 1474632213076 Frame.java RENAME updateScore_=>void updateScore_firstThrow FIELD
+RefactoringAction 1474632215089 Frame.java RENAME updateScore_firstThrow=>void updateScore_firstThwo FIELD
+RefactoringAction 1474632218603 Frame.java RENAME updateScore_firstThwo=>void updateScore FIELD
+RefactoringAction 1474632227631 Frame.java RENAME updateScore=>void updateScoreForA FIELD
+RefactoringAction 1474632230145 Frame.java RENAME updateScoreForA=>void updateScoreFora FIELD
+RefactoringAction 1474632232159 Frame.java RENAME updateScoreFora=>void updateScoreForaThrow() METHOD
+RefactoringAction 1474632246672 Frame.java RENAME updateScoreForaThrow()=>void updateScore_ FIELD
+RefactoringAction 1474632249684 Frame.java RENAME updateScore_=>void updateScore_FirstThrow FIELD
+RefactoringAction 1474632251198 Frame.java RENAME updateScore_FirstThrow=>void updateScore_FirstThrow() METHOD
+RefactoringAction 1474632256712 Frame.java RENAME updateScore_FirstThrow()=>void updateScore_FirstThrow(int) METHOD
+RefactoringAction 1474632290850 Frame.java ADD void updateScore_Second FIELD
+RefactoringAction 1474632292364 Frame.java RENAME updateScore_Second=>void updateScore_SecondThrow FIELD
+RefactoringAction 1474632293376 Frame.java RENAME updateScore_SecondThrow=>void updateScore_SecondThrow() METHOD
+RefactoringAction 1474632295388 Frame.java RENAME updateScore_SecondThrow()=>void updateScore_SecondThrow(int) METHOD
+EditAction 1474632378852 TestBowling.java 576 3 4 1

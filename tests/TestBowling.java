@@ -17,7 +17,8 @@ public class TestBowling {
 		//int firstThrow = 4;
 		//int secondThrow = 5;
 		//Frame test = new Frame( firstThrow, secondThrow );
-		
+		test.updateScore_FirstThrow(5);
+		test.updateScore_SecondThrow(4);
 		assertEquals(9, test.score());
 	}
 	@Test
