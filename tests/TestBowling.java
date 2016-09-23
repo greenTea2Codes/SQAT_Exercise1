@@ -46,9 +46,14 @@ public class TestBowling {
 		assertFalse(testFrame.isSpare());
 	}
 	@Test
+	public void testBowlingGame_getIniNumberOfFrames(){
+		int numOfFrames = testBowlingGame.getNumberOfFrames();
+		assertEquals(0, numOfFrames);
+	}
+	@Test
 	public void testBowlingGame_addFrame(){
 		testBowlingGame.addFrame(testFrame);
-		Fail("not implemented");
+		fail("not implemented");
 	}
 
 

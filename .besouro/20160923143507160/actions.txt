@@ -84,3 +84,18 @@ RefactoringAction 1474633215181 TestBowling.java RENAME test=>Frame testFrame FI
 EditAction 1474633403506 TestBowling.java 1287 7 17 5
 EditAction 1474633403566 Frame.java 1101 8 14 0
 EditAction 1474633403625 BowlingGame.java 626 4 2 0
+CompilationAction 1474633403703 TestBowling.java
+CompilationAction 1474633449225 TestBowling.java
+UnitTestCaseAction 1474633449457 TestBowling.java FAIL
+UnitTestSessionAction 1474633449457 TestBowling.java FAIL
+RefactoringAction 1474633484755 BowlingGame.java ADD void get FIELD
+RefactoringAction 1474633487268 BowlingGame.java RENAME get=>void getNumber FIELD
+RefactoringAction 1474633489793 BowlingGame.java RENAME getNumber=>void getNumberOf FIELD
+RefactoringAction 1474633492805 BowlingGame.java RENAME getNumberOf=>void getNumberOfFrames FIELD
+RefactoringAction 1474633494818 BowlingGame.java RENAME getNumberOfFrames=>void getNumberOfFrames() METHOD
+RefactoringAction 1474633626783 TestBowling.java ADD void testBowlingGame_getNumberOfFrames() METHOD
+RefactoringAction 1474633703919 TestBowling.java RENAME testBowlingGame_getNumberOfFrames()=>void testBowlingGame_getINumberOfFrames() METHOD
+RefactoringAction 1474633708925 TestBowling.java RENAME testBowlingGame_getINumberOfFrames()=>void testBowlingGame_getInniNumberOfFrames() METHOD
+RefactoringAction 1474633710932 TestBowling.java RENAME testBowlingGame_getInniNumberOfFrames()=>void testBowlingGame_getInNumberOfFrames() METHOD
+RefactoringAction 1474633714442 TestBowling.java RENAME testBowlingGame_getInNumberOfFrames()=>void testBowlingGame_getIniNumberOfFrames() METHOD
+EditAction 1474633735189 TestBowling.java 1444 8 19 6
