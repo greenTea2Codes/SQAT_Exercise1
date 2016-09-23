@@ -49,3 +49,4 @@ RefactoringAction 1474632292364 Frame.java RENAME updateScore_Second=>void updat
 RefactoringAction 1474632293376 Frame.java RENAME updateScore_SecondThrow=>void updateScore_SecondThrow() METHOD
 RefactoringAction 1474632295388 Frame.java RENAME updateScore_SecondThrow()=>void updateScore_SecondThrow(int) METHOD
 EditAction 1474632378852 TestBowling.java 576 3 4 1
+EditAction 1474632378913 Frame.java 954 8 11 0

@@ -15,6 +15,13 @@ public class Frame {
 		return secondThrow;
 	}
 
+	//update score for a throw
+	public void updateScore_FirstThrow(int score){
+		firstThrow = score;
+	}
+	public void updateScore_SecondThrow(int score){
+		secondThrow = score;
+	}
 	//returns the score of a single frame
 	public int score(){
 		
