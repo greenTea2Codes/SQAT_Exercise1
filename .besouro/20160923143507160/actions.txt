@@ -117,3 +117,7 @@ RefactoringAction 1474634379637 TestBowling.java RENAME testBowlingGame_score_no
 RefactoringAction 1474634380618 TestBowling.java RENAME testBowlingGame_score_noBo()=>void testBowlingGame_score_noBonus() METHOD
 EditAction 1474634607883 TestBowling.java 1831 9 25 8
 EditAction 1474634607945 BowlingGame.java 966 5 7 0
+UnitTestCaseAction 1474634608272 TestBowling.java OK
+UnitTestSessionAction 1474634608272 TestBowling.java OK
+RefactoringAction 1474634622983 TestBowling.java RENAME testBowlingGame_score_noBonus()=>void testBowlingGame_score_90_noBonus() METHOD
+EditAction 1474634626564 TestBowling.java 1834 9 25 8

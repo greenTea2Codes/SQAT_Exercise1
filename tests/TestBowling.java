@@ -58,7 +58,7 @@ public class TestBowling {
 		//fail("not implemented");
 	}
 	@Test
-	public void testBowlingGame_score_noBonus(){
+	public void testBowlingGame_score_90_noBonus(){
 		testFrame.updateScore_FirstThrow(5);
 		testFrame.updateScore_SecondThrow(4);
 		for(int i = 0; i < 10; i++){
