@@ -38,5 +38,11 @@ public class TestBowling {
 		test.updateScore_SecondThrow(10);
 		assertTrue(test.isSpare());
 	}
+	@Test 
+	public void testFrame_isNotSpare(){
+		test.updateScore_SecondThrow(9);
+		assertFalse(test.isSpare());
+	}
+
 
 }

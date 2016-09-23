@@ -65,3 +65,8 @@ RefactoringAction 1474632804506 TestBowling.java RENAME testFrame=>void testFram
 RefactoringAction 1474632808019 TestBowling.java RENAME testFrame_=>void testFrame_isSpare() METHOD
 EditAction 1474632853237 TestBowling.java 907 5 12 4
 EditAction 1474632853302 Frame.java 1098 8 14 0
+UnitTestCaseAction 1474632853592 TestBowling.java OK
+UnitTestSessionAction 1474632853592 TestBowling.java OK
+RefactoringAction 1474632870270 TestBowling.java ADD void testFrame_isSpare()/2 METHOD
+RefactoringAction 1474632873285 TestBowling.java RENAME testFrame_isSpare()/2=>void testFrame_isNotSpare() METHOD
+EditAction 1474632897793 TestBowling.java 1028 6 14 5
